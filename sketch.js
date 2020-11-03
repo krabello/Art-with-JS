@@ -1,6 +1,7 @@
 const total_degrees = 360;
 let radius = 0;
 let height = 0;
+let frameCount = 0;
 
 function setup() {
   frameRate(20);

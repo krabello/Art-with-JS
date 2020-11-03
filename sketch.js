@@ -23,8 +23,8 @@ function draw() {
   //   rotateY((frameCount / 2) * 0.0000003);
   translate(frameCount / 900, 100);
 
-  center_x = width / 2;
-  center_y = height / 3;
+  let center_x = width / 2;
+  let center_y = height / 3;
 
   beginShape();
   for (let i = 0; i <= total_degrees; i++) {
